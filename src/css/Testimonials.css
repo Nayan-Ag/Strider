@@ -1,0 +1,73 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+.testimonials{
+    height: 650px;
+}
+.testi{
+    border-radius: 50px;
+    box-shadow: 0px 0.25px 1.1px 0.1px rgba(0, 0, 0, 0.5);
+    margin: 0 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.head > h1{
+    color: #191919;
+    font-weight: bolder;
+}
+.head>.head-para{
+    width: 500px;
+    color: #5d5d5d;
+    font-weight: 400;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    height: 300px;
+    width: 640px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+.container > .image > img{
+    height: 200px;
+    width: 180px;
+    border-radius: 50%;
+}
+.testi > .container > .content > p:nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+}
+.testi > .container > .content > p:nth-child(2){
+    font-size: 17px;
+    margin-top: 1px;
+}
+.testi > .container > .content > p:nth-child(3){
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.testi > .container > .content > p:nth-child(4){
+    font-size: 18px;
+    margin-top: -20px;
+}
+.rec-arrow {
+    background-color: red !important;
+    font-size: 2.1rem !important; 
+    color: white !important;
+    width: 4.0rem !important;
+    height: 3.7rem !important;
+}
+.rec-arrow:hover{
+    background-color: rgb(141, 16, 16) !important;
+    transition: all 0.3s ease !important;
+    font-size: 1.7rem !important;
+    width: 3.6rem !important;
+    height: 3.2rem !important;
+}
