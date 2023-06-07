@@ -1,0 +1,44 @@
+.Rooms{
+    margin-bottom: 6vw;
+}
+.Rooms_comp:before{
+    content: '';
+    position: absolute;
+    margin-top: -220px;
+    background: url('./images/bg2.jpg');
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    filter: brightness(35%);
+}
+.Rooms .property{
+    padding-top: 15vh;
+}
+.Rooms .property .row{
+    justify-content: center;
+    display: flex;
+    /* width: 100vw; */
+    align-items: center;
+    padding-top: 30px;
+}
+.Rooms .content{
+    text-align: center;
+    z-index: 1;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Rooms .content h1{
+    font-size: 4rem;
+    z-index: 1;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.Rooms .content p{
+    color: rgb(241, 228, 228);
+    font-size: 0.9rem;
+    width: 45vw;
+    line-height: -2px;
+}

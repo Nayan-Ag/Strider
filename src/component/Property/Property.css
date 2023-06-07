@@ -1,0 +1,98 @@
+.Product{
+    position: relative;
+    overflow: hidden;
+    padding: 46px;
+    background-color: #fcfcfc;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 20px;
+}
+.Product > .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.Product > .header > .browse{
+    border: 0;
+    border-radius: 40px;
+    width: 190px;
+    height: 70px;
+    /* color: whitesmoke; */
+    font-size: 18px;
+    margin-right: 90px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 0.1px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top: -20px;
+    transition: margin-top 800ms ease;
+}
+.Product > .header > .browse > .browse_link {
+    color: black;
+    text-decoration: none;
+}
+.Product > .header > button:hover{
+    background-color: red;
+    margin-top: -28px;
+}
+.Product > .header > button:hover .browse_link{
+    color: white;
+}
+.Product > .header > .heading{
+    display: flex;
+    width: 100%;
+    margin-left: 33px;
+}
+.Product > .header > .heading > h1{
+    font-weight: bolder;
+    font-size: 39px;
+}
+
+.Product .Product-container{
+    padding: 0px 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-top: 30px;
+}
+
+.Product .pre-button , .Product .next-button{
+    border: none;
+    width: 85px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+}
+.Product .pre-button{
+    margin-left: -50px;
+}
+.Product .next-button{
+    right: 0;
+    margin-right: 10px;
+}
+.Product .pre-button p , .Product .next-button p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    width: 55px;
+    height: 55px;
+    z-index: 1;
+    transition: 0.5s all ease;
+}
+.Product .pre-button p:hover , .Product .next-button p:hover{
+    height: 50px;
+    width: 45px;
+    background-color: rgb(194, 46, 46);
+    font-size: 36px;
+}

@@ -1,0 +1,270 @@
+.property_page::before{
+    content: '';
+    position: absolute;
+    background: url(./images/property1.jpg) no-repeat center center/cover;
+    height: 85vh;
+    width: 100vw;
+    z-index: -1;
+    filter: brightness(30%);
+}
+.property_page .content{
+    color: white;
+    padding-top: 52vh;
+    padding-left: 10vw;
+}
+.property_page .content h1{
+    font-weight: bolder;
+    font-size: 4.1rem;
+}
+.property_page .content p{
+    font-size: 1.3rem;
+    width: 48vw;
+}
+.property_page .fixed_content{
+    width: 30vw;
+    height: 110vh;
+    margin-left: 60vw;
+    margin-top: -10vh;
+    position: sticky;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 30px;
+}
+.property_page .fixed_content > h1{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    padding: 50px 0 0 55px;
+}
+.property_page .fixed_content > span{
+    padding: 8px 25px 0 55px;
+}
+.property_page .fixed_content > .from{
+    padding: 12px 0 0 55px;
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+}
+.property_page .fixed_content > .price > .price_high{
+    font-size: 1.9rem;
+    padding: 0 0 0 55px;
+    font-weight: bolder;
+    text-align: center;
+}
+.property_page .fixed_content .line_break{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.property_page .fixed_content .line_break .hr{
+    width: 350px;
+}
+.property_page .fixed_content .cart{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.property_page .fixed_content .option-1 p{
+    padding-left: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 200px;
+}
+.property_page .fixed_content .option-1 select{
+    border: 0px;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 60px;
+    width: 180px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.property_page .fixed_content .option-2 p{
+    padding-left: 55px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.property_page .fixed_content .option-2 select{
+    border: 0px;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 60px;
+    margin-left: 60px;
+}
+.property_page .fixed_content .button{
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+}
+.property_page .fixed_content .button .cart_btn{
+    border: 0;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    width: 350px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: all 0.4s ease-out;
+}
+.property_page .fixed_content .button .cart_btn:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.property_page .fixed_content .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+.property_page .fixed_content .line .hr_line{
+    width: 140px;
+}
+.property_page .fixed_content .line .or{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding: 20px;
+}
+.property_page .fixed_content .airbnb{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.property_page .fixed_content .airbnb button{
+    width: 350px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 1, 1, 0.905);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 12px;
+    font-size: 1.3rem;
+    border-radius: 60px;
+    color: white;
+    font-weight: bold;
+    transition:  margin-top 0.3s ease-in-out;
+}
+.property_page .fixed_content .airbnb button:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.property_page .fixed_content .airbnb button p{
+    padding: 12px 0 0 15px;
+}
+.property_page .fixed_content .airbnb button p a{
+    color: white;
+    text-decoration: none;
+}
+.property_page .person{
+    height: 120vh;
+    top: 100vh;
+    position: absolute;
+    width: 53vw;
+    /* margin-left: 4vw; */
+}
+.property_page .person .beds{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+.property_page .person .beds p{
+    padding: 10px;
+    margin-left: 30px;
+    width: 170px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 30px;
+}
+.property_page .person .about{
+    margin-left: 6.5vw;
+    margin-top: 40px;
+}
+.property_page .person .about h1{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.property_page .person .about p{
+    padding-top: 20px;
+    font-size: 1.1em;
+    padding-left: 10px;
+    color: gray;
+}
+.property_page .person .about ul{
+    padding-left: 40px;
+    padding-top:20px;
+    padding-bottom: 15px;
+    color: gray;
+    font-size: 1.1rem;
+}
+.property_page .person .about ul li{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.property_page .person .amenities{
+    margin-left: 6.5vw;
+    margin-top: 10vh;
+}
+.property_page .person .amenities h1{
+    font-weight: bold;
+}
+.property_page .person .amenities .amenity {
+    display: flex;
+    margin-top: 40px;
+}
+.property_page .person  .row{
+    display: flex;
+}
+.property_page .person .amenities .row .options{
+    display: flex;
+    font-size: 1.4rem;
+    color: rgb(97, 92, 92);
+    padding: 15px;
+    padding-left: 20px;
+    width: 250px;
+}
+.property_page .person .amenities .row .options p{
+    padding-left: 20px;
+    /* width: 300px; */
+}
+.property_page .gallery{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6vw;
+}
+.property_page .gallery_room h1{
+    margin-left: 8vw;
+    font-weight: bold;
+    margin-bottom: 4vw;
+    margin-top: 10vw;
+}
+.property_page .gallery .row_img{
+    width: 18vw;
+    height: 34vh;
+    position: relative;
+    overflow: hidden;
+    margin: 5px 15px 5px 15px;
+}
+.property_page .gallery .row_img img{
+    width: 18vw;
+    border-radius: 40px;
+    height: 34vh;
+    transition: all 0.5s  ease-in-out;
+    display: block;
+    transform: scale(1)
+}
+.property_page .gallery .row_img:hover img{
+    transform: scale(1.1);
+    border-radius: 20%;
+    cursor: pointer;
+}

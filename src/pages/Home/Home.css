@@ -1,0 +1,104 @@
+.carousel-inner > .carousel-item > .content-1::before{
+    content: '';
+    position: absolute;
+    background: url('./images/bg1.jpeg');
+    height: 110vh;
+    width: 100vw;
+    z-index: -1;
+    filter: brightness(35%);
+}
+.carousel-inner > .carousel-item > .content-2::before{
+    content: '';
+    position: absolute;
+    background: url('./images/bg2.jpg');
+    height: 110vh;
+    width: 100vw;
+    z-index: -1;
+    filter: brightness(30%);
+}
+.carousel-inner > .carousel-item > .content-3::before{
+    content: '';
+    position: absolute;
+    background: url('./images/bg3.jpeg');
+    height: 110vh;
+    width: 100vw;
+    z-index: -1;
+    filter: brightness(25%);
+}
+.carousel-inner > .carousel-item > .content{
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.carousel-inner > .carousel-item > .content > h1{
+    font-size: 60px;
+    padding-top: 31vh;
+    font-weight: bolder;
+}
+.carousel-inner > .carousel-item > .content > p:nth-child(2){
+    font-size: 19px;
+    margin-top: 5px;
+}
+.carousel-inner > .carousel-item > .content > p:nth-child(3){
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+    color: #ecdada;
+    width: 600px;
+}
+.carousel-inner > .carousel-item > .content > .button{
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+.carousel-inner > .carousel-item > .content > .button > .explore{
+    margin-left: -200px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s all ease;
+    border: 0px;
+    width: 160px;
+    height: 65px;
+    border-radius: 50px;
+    font-size: 18px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.carousel-inner > .carousel-item > .content > .button > .explore > .link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.carousel-inner > .carousel-item > .content > .button > .about{
+    margin-left: 30px;
+    transition: 0.2s all ease;
+    border: 0px;
+    width: 160px;
+    height: 65px;
+    border-radius: 50px;
+    font-size: 18px;
+    position: absolute;
+}
+.carousel-inner > .carousel-item > .content > .button > .about > .link{
+    color: black;
+    text-decoration: none;
+}
+.carousel-inner > .carousel-item > .content > .button > .explore:hover{
+    margin-bottom: 7px;
+    background-color: rgb(218, 15, 15);
+}
+.carousel-inner > .carousel-item > .content > .button > .about:hover{
+    margin-bottom: 7px;
+    background-color: red;
+    font-weight: bolder;
+}
+.carousel-inner > .carousel-item > .content > .button > .about:hover >.link{
+    color: whitesmoke;
+}
